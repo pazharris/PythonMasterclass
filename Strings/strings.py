@@ -13,4 +13,5 @@ print(f"Pi approximately {22 / 7:12.50f}")
 
 
 def names(name):
-    print(name)
+    if len(name) < 6:
+        print(name)
